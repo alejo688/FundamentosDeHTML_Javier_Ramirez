@@ -6,6 +6,21 @@ html,body {
     font-family: 'Roboto', sans-serif;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    padding: 1%;
+    margin: 0;
+}
+
+p {
+    padding: 2%;
+    margin: 0;
+    text-align: justify;
+}
+img {
+    padding: 2%;
+    margin: 0;
+}
+
 .logo {
     width: 100%;
     height: 10%;
@@ -23,11 +38,6 @@ html,body {
     float: left;
 }
 
-.datos h1, h2, h3, h4, h5, h6 {
-    padding: 1%;
-    margin: 0;
-}
-
 .menu {
     width: 100%;
     background: #a5a5a5cc;
@@ -42,6 +52,33 @@ html,body {
     text-decoration: none;
     font-weight: bold;
     color: #ffffffe3;
+}
+
+.cuerpo {
+    width: 100%;
+    float: left;
+}
+
+.cuerpo table {
+    width: 100%;
+    border: 1px solid #a5a5a5;
+}
+
+.cuerpo table td, .cuerpo table th {
+    border: 1px solid #a5a5a5;
+}
+
+.inputs {
+    width: 99%;
+    padding: 0.5%;
+}
+
+.inputs button {
+    background: #a5a5a5;
+    width: 100px;
+    height: 30px;
+    border: 0;
+    font-size: 14px;
 }
 
 footer {

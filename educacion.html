@@ -25,6 +25,67 @@
             <a href="experiencia.html">Experiencia</a>
         </div>
 
+        <div class="cuerpo">
+            <h2>Educación</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Institución</th>
+                        <th>Lugar</th>
+                        <th>¿Culminó?</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2012</td>
+                        <td>Unipanamericana</td>
+                        <td>Bogotá</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2015</td>
+                        <td>Apps.co</td>
+                        <td>Bogotá</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2017</td>
+                        <td>Unipanamericana</td>
+                        <td>Bogotá</td>
+                        <td>Si</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <form class="cuerpo" action="#">
+            <h3>Agregar Estudios</h3>
+            <div class="inputs">
+                <label>Año:</label>
+                <select name="ano">
+                    <option value="">Seleccione una opción</option>
+                    <option value="2014">2014</option>
+                    <option value="2015">2015</option>
+                    <option value="2016">2016</option>
+                    <option value="2017">2017</option>
+                    <option value="2018">2018</option>
+                    <option value="2019">2019</option>
+                </select>
+            </div>
+            <div class="inputs">
+                <label>Institución:</label>
+                <input name="institucion" required/>
+            </div>
+            <div class="inputs">
+                <label>Lugar:</label>
+                <textarea name="lugar"></textarea>
+            </div>
+            <div class="inputs">
+                <button>Enviar</button>
+            </div>
+        </form>
+
         <footer>
             <h3>Contacto</h3>
             <ul>
